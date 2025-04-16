@@ -22,7 +22,6 @@ app.get('/proxy', async (req, res) => {
 
         const response = await fetch(targetUrl, {
             headers: {
-                'Origin': "https://megacloud.club/",
                 'Referer': "https://megacloud.club/",
             },
         });

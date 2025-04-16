@@ -8,6 +8,10 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 
+app.get('/', async (req, res) => {
+    res.send("ok")
+})
+
 app.get('/proxy', async (req, res) => {
     try {
         const targetUrl = req.query.url;

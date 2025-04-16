@@ -1,9 +1,0 @@
-name = "test"
-main = "index.mjs"
-compatibility_date = "2025-04-16"
-
-[build]
-upload.format = "modules"
-
-[observability.logs]
-enabled = true
